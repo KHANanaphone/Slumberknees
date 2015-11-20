@@ -1,26 +1,32 @@
 <div id='top'>
-
     <div class='container'>
+        <div class='wrapper'>
+            <div class='inner'>
 
-        <div class='name'>
-            SLUMBERKNEES
+                <div class='splash'>
+
+                    <span class='name col-xs-12'>Slumberknees</span>
+                    <div class='tagline col-xs-6'>
+                        [insert description of product here insert description of product here].
+                    </div>
+                    <div class='play-button' onclick='showVideo()'>
+                        <svg viewBox='0,0,200,200'>
+                            <circle cx='100' cy='100' r='90'></circle>
+                            <polygon points='70,50 70,150 160,100'></polygon>
+                        </svg>
+                    </div>
+
+                </div>
+
+                <div class='video hidden'>
+                    <iframe id="ytplayer" type="text/html"
+                        src="https://www.youtube.com/embed/C0DPdy98e4c?rel=0&showinfo=0&autohide=1"
+                        frameborder="0" allowfullscreen></iframe>
+                </div>
+
+            </div>
         </div>
-
-        <div class='video-wrapper'>
-
-            <iframe id="ytplayer" type="text/html"
-            src="https://www.youtube.com/embed/C0DPdy98e4c?rel=0&showinfo=0&autohide=1"
-            frameborder="0" allowfullscreen></iframe>
-
-        </div>
-
-        <div class='tagline'>
-            [Tagline or description of product]<br/>
-            <a href="#learnmore">Learn More Now</a>
-        </div>
-
     </div>
-
 </div>
 
 <div id='testimonials'>
@@ -56,10 +62,13 @@
     <div class='container'>
         <h2 class='title'>Learn More</h2>
 
-        <div class='text'>
-            To learn more about Slumberknees, feel free to reach out to us.</br>
+        <div class='text col-xs-6'>
+            To learn more about Slumberknees, feel free to reach out to us.</br></br>
             Phone: 555-5555-555</br>
             E-Mail: address@slumberknees.com
+        </div>
+        <div class='col-xs-6'>
+            <img class='image' src = '../images/image1.jpg'/>
         </div>
 
     </div>
